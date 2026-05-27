@@ -1,0 +1,101 @@
+Aluno Rodrigo Goes
+Curso: Analise e desenvolvimento de sistemas
+
+
+
+# Comandos comuns do Git usados em várias situações
+
+_Iniciar uma área de trabalho_
+
+(veja também: git help tutorial)
+
+clone
+Clonar (copiar) um repositório para um novo diretório.
+
+init
+Criar um repositório Git vazio ou reinicializar um repositório existente.
+
+
+
+_Trabalhar na mudança atual_
+
+(veja também: git help everyday)
+
+add
+Adicionar o conteúdo de arquivos à área de preparação (index/staging area).
+
+mv
+Mover ou renomear um arquivo, diretório ou link simbólico.
+
+restore
+Restaurar arquivos da árvore de trabalho.
+
+rm
+Remover arquivos da árvore de trabalho e do index.
+
+
+
+_Examinar o histórico e o estado_
+
+(veja também: git help revisions)
+
+bisect
+Usar busca binária para encontrar o commit que introduziu um erro (bug).
+
+diff
+Mostrar diferenças entre commits, entre commit e árvore de trabalho, etc.
+
+grep
+Mostrar linhas que correspondem a um padrão de busca.
+
+log
+Mostrar o histórico de commits.
+
+show
+Mostrar vários tipos de objetos do Git.
+
+status
+Mostrar o estado da árvore de trabalho.
+
+
+
+_Expandir, marcar e ajustar o histórico do projeto_
+
+backfill
+Baixar objetos faltantes em um clone parcial.
+
+branch
+Listar, criar ou excluir branches (ramificações).
+
+commit
+Registrar mudanças no repositório.
+
+merge
+Unir dois ou mais históricos de desenvolvimento.
+
+rebase
+Reaplicar commits em cima de outra base.
+
+reset
+Definir o HEAD ou o index para um estado específico.
+
+switch
+Trocar de branch.
+
+tag
+Criar, listar, excluir ou verificar tags.
+
+
+
+_Colaboração_
+
+(veja também: git help workflows)
+
+fetch
+Baixar objetos e referências de outro repositório.
+
+pull
+Buscar mudanças e integrá-las com outro repositório ou branch local.
+
+push
+Atualizar referências remotas juntamente com os objetos associados.
